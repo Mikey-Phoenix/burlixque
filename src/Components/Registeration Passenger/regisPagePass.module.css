@@ -1,0 +1,299 @@
+
+a, link{
+  text-decoration: none !important;
+}
+  .container {
+    display: flex;
+    height: 100vh;
+    overflow-y: hidden;
+  }
+  .newDivCnt{
+    width: 85%;
+    background-color: #f1f0f0;
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .imgSpace {
+    width: 30%; /* Adjust width as needed */
+    background-color: #f1f1f1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #f5f5f5; /* Adjusted border width */
+    margin: 20px;
+  }
+  .formContainer {
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    width: 100%;
+    padding: 20px;
+    margin-left: 0px;
+    /* border: 1px solid #ccc; */
+    border-radius: 8px;
+    /* background-color: #f9f9f9; */
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+  }
+  
+  .form {
+    width: 100%; /* Ensure form takes full width inside container */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+  }
+  .formGroup textarea{
+    width: 100%;
+  }
+  
+  .formGroup label {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: normal; /* Removed boldness */
+    text-align: left; /* Align text to the left */
+    font-size: 14px !important;
+  }
+  
+  .inputs {
+    padding: 8px;
+    border: 0.2px solid gray !important;
+    border-radius: 8px !important;
+    background-color: #fff;
+    width: 100%; /* Ensure input takes full width */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    font-size: 14px; /* Optional: Adjust font size */
+    text-align: left; /* Align text to the left */
+    height: 43px;
+  }
+  
+  .inputsReactSelect{
+    /* padding: 8px; */
+    /* border: 1px solid gray; */
+    /* border-radius: 4px; */
+    background-color: #fff;
+    width: 100%; /* Ensure input takes full width */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    font-size: 14px; /* Optional: Adjust font size */
+    text-align: left; /* Align text to the left */
+  }
+  
+  
+  .reg {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.89px;
+  }
+  
+  .contentSpace {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+    overflow-y: scroll;
+  }
+  
+  .skip {
+    text-align: right;
+    margin-top: 30px;
+  }
+  
+  .skip a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .heading h3 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 43.57px;
+    color: #343A40;
+  }
+  
+  .heading p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    color: #6C757D;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .programHeading {
+    text-align: left;
+    margin-left: 70px; /* Adjust to align with input fields */
+  }
+  
+  .submitButton {
+    grid-column: span 2;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .new, .delete {
+    cursor: pointer;
+    color: blue;
+  }
+  
+  .new a, .delete a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .btn {
+    display: block;
+    width: 63% !important;
+    cursor: pointer;
+    background-color: #0058ff;
+    color: white;
+    border-radius: 4px;
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .btn:hover {
+    background-color: #05338a;
+  }
+  
+  .personal1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .containejdofar {
+    background-color: #f1f1f100;
+    width: calc(30% + 22px); /* Adjust width to include margin and border */
+    min-height: 100vh; /* Ensure the shadow height covers the full screen */
+    gap: 10px;
+    justify-content: space-between; /* Distribute space between elements */
+    /* height: auto; */
+  }
+  
+  @media(max-width:800px){
+    /* Nav  */
+    .containejdofar{
+        display: none;      /* background-color: #2D995F; */
+    }
+  
+  }
+    
+  
+  
+  
+  
+  
+  
+  
+  /* Personal.module.css */
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .contentSpace {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .skip {
+    margin-bottom: 20px;
+  }
+  
+  .arrowIcon {
+    vertical-align: middle;
+  }
+  
+  .heading {
+    margin-bottom: 20px;
+  }
+  
+  .heading h3 {
+    margin: 0;
+  }
+  
+  .heading p {
+    margin: 0;
+    color: gray;
+  }
+  .newDiv{
+    display: flex !important;
+    justify-content: center;
+    /* padding: 0px 200px 0px 0px; */
+    height: 43px !important;
+    border-radius: 4px;
+    /* padding-left: 20px !important; */
+    width: 70%;
+    margin: auto;
+  }
+  
+  @media (max-width: 880px) {
+    .container {
+      flex-direction: column;
+    }
+    .form {
+      width: 100%; /* Ensure form takes full width inside container */
+      display: flex;
+      flex-direction: column;
+      /* grid-template-columns: repeat(2, 1fr); */
+      gap: 0px;
+    }
+    .formContainer {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 100%;
+      padding: 0px;
+      margin: auto;
+      /* border: 1px solid #ccc; */
+      border-radius: 8px;
+      /* background-color: #f9f9f9; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box; /* Ensure padding and border are included in the width */
+    }
+    .btn {
+      width: 100%!important;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+    }
+    .newDiv{
+      display: flex!important;
+      justify-content: center;
+      width: 100%;
+       padding-left:0px!important;
+       padding: 0;
+       margin: auto;
+    }
+    .heading h3 {
+      line-height: 1.1;
+    }
+  }
+  

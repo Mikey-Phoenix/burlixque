@@ -1,0 +1,98 @@
+.containerClassName {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+    padding: 40px;
+    margin: auto;
+    padding-top: 0;
+    width: 70%;
+  }
+
+  .container {
+    display: flex;
+    height: 100vh;
+    overflow-y: hidden;
+  }
+  
+  .content {
+    text-align: center;
+    max-width: 60%;
+    margin-bottom: 40px;
+  }
+  
+  .h2ClassName {
+    font-size: 29px;
+    font-weight: 790;
+    margin-bottom: 10px;
+  }
+  
+  .pClassName {
+    font-size: 16px;
+    color: #6c757d;
+    margin: 0;
+    margin-bottom: 20px;
+
+  }
+  
+  .imagePlaceholder {
+    background-color: #dee2e6;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .imagePlaceholder img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .finishButton {
+    background-color: #0058ff;
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .finishButton:hover{
+    background-color: #05338a;
+  }
+  
+  .progress {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .progress span {
+    width: 20px;
+    height: 4px;
+    background-color: #dee2e6;
+    margin: 0 5px;
+  }
+  
+  .progress .active {
+    background-color: #28a745;
+  }
+
+  @media (max-width: 880px) {
+    .containerClassName{
+      width: 90%;
+      margin: auto;
+    }
+    .container{
+      flex-direction: column;
+      justify-content: center;
+    }
+    .content{
+      margin-left: -35px;
+      max-width: 85%;
+    }
+  }
+  

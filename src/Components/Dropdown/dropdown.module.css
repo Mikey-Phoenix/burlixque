@@ -1,0 +1,25 @@
+.dropdown {
+    border: 1px solid;
+    position: fixed;
+    top: 15%;
+    right: 5%;
+    display: inline-block;
+    width: 200px;
+}
+.dropdownContent {
+    display: flex;
+    flex-direction: column;
+}
+.dropdownItem {
+    background-color: #fff;
+    border: 0px;
+    border-bottom: 1px solid;
+    font-size: 1rem;
+    padding: 5% 2%;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+.dropdownItem:hover {
+    background-color: #e9e7e7;
+}

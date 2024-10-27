@@ -1,0 +1,192 @@
+
+  .container {
+    display: flex;
+    height: 100vh;
+    overflow-y: hidden;
+  }
+  
+  .paymentContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fc;
+    padding: 10%;
+    padding-top: 30px;
+    border-radius: 12px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow-y: auto;
+
+  }
+  
+  .paymentDetails {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    margin-right: 20px;
+  }
+  
+  .title {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .inputGroupings {
+    margin-bottom: 15px;
+  }
+  
+  .inputGroupings label {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .inputGroupings input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .cardDetails {
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+  }
+  
+  .promoCode {
+    margin: 15px 0;
+  }
+  
+  .promoCode input {
+    margin-right: 8px;
+  }
+  
+  .summary {
+    margin-top: 20px;
+  }
+  
+  .summaryItem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+  }
+  
+  .summaryTotal {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .paymentButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #0058ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  .paymentButton:hover{
+    background-color: #05338a;
+  }
+  
+  .subscriptionDetails {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fc;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .planInfo {
+    text-align: center;
+  }
+  
+  .planText {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .planDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .planIcon img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .planCost h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin: 0 10px 0 10px;
+    font-weight: 600;
+  }
+  
+  .planCost p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .features {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+  }
+  
+  .features li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .modifyPlan {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #0058ff;
+    text-decoration: none;
+    margin-top: 20px;
+    display: block;
+  }
+  @media (max-width: 880px) {
+    .paymentContainer{
+      width: 90%;
+      padding: 2%;
+    }
+    .container{
+      flex-direction: column;
+    }
+    .paymentDetails{
+      margin-right: 0;
+    }
+    .cardDetails {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+    }
+  }
+  
