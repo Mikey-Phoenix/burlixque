@@ -1,0 +1,48 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    /* width: 80px;
+    height: 80px;
+    border-radius: 50%; */
+  }
+  .dropdownGroo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute;
+    right: 0;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content,
+  .dropdown-button:hover + .dropdown-content {
+    display: block; /* Show the dropdown when hovered */
+    
+  }
+  
+  .dropdown-item {
+    background: none;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #ddd; /* Highlight the option on hover */
+  }
+  

@@ -1,0 +1,141 @@
+/* RideArrivedPage.module.css */
+
+/* Unique class names with a dark theme */
+
+/* Main page container */
+.pageContainer {
+    background-color: #1d1d2b;
+    color: #fff;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Header styles */
+  .header {
+    text-align: left;
+  }
+  
+  .backLink {
+    color: #a0a0b1;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+  
+  .subtitle, .waitingTime {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #c5c5d1;
+  }
+  
+  /* Main content styles */
+  .mainContent {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .carSection {
+    flex: 1;
+  }
+  
+  .carImage {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .rideDetails {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #a0a0b1;
+  }
+  
+  .mapAndInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Map section */
+  .mapSection {
+    background-color: #252533;
+    padding: 15px;
+    border-radius: 15px;
+  }
+  
+  .mapImage {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .destinationDetails {
+    color: #c5c5d1;
+  }
+  
+  .destination {
+    font-weight: bold;
+  }
+  
+  .route, .distance {
+    color: #a0a0b1;
+  }
+  
+  /* Ride options */
+  .rideOptions {
+    background-color: #252533;
+    padding: 15px;
+    border-radius: 15px;
+  }
+  
+  .option {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    color: #a0a0b1;
+  }
+  
+  .selectedOption {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #353546;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Driver message */
+  .driverMessage {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .driverAvatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .messageText {
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  .message {
+    font-size: 0.9rem;
+    color: #a0a0b1;
+  }
+  

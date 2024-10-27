@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*input{
+  outline: none !important;
+}
+.appContainer {
+    min-height: 100vh;
+    width: 100% !important;
+    /* margin: auto; */
+    background-color: var(--background);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+    overflow-x: hidden;
+  }
+  
+  :root {
+    --background-light: #ffffff;
+    --text-color-light: #000000;
+    
+    --background-dark: #181818;
+    --text-color-dark: #ffffff;
+  }
+
+  .aboutGroupthings{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    gap: 100px;
+    margin-top: -20px;
+  }
+  .aboutGroupthings img{
+    width: 31%;
+    /* height: ; */
+  }
+
+  @media (max-width: 800px) {
+    .aboutGroupthings{
+      flex-direction: column;
+      gap: 0px;
+    }
+    .aboutGroupthings img{
+      width: 95%;
+      /* height: ; */
+    }
+  }
+  .aboutGroupthings p{
+    font-family: "Josefin Sans", sans-serif !important;
+    /* color: gray; */
+    opacity: 0.8;
+    line-height: 1.6;
+    width: 95%;
+  }
+  
+
+  .tivcontainer {
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 2rem;
+    opacity: 1;
+    /* padding: 2rem; */
+    margin-top: -30px;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .formSectionings {
+    flex: 1 1 60%;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin: auto;
+  }
+  
+  .imageSection {
+    flex: 1 1 35%;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .imageSection img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .contactDetails {
+    margin-top: 2rem;
+  }
+  
+  .contactInfo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+  }
+  
+  .bigh3 {
+    color: #ff6a00;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  
+  .formers {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .inputGroupers {
+    display: flex;
+    justify-content: space-between;
+    width: 97.8%;
+    gap: 1rem !important;
+  }
+  
+  .inputFielders {
+    flex: 1;
+  }
+  
+  .inputFielders label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .inputFielders input,
+  .inputFielders textarea {
+    width: 96%;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .inputFielders textarea {
+    resize: vertical;
+  }
+  
+  .checkboxers {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .checkboxers input {
+    margin-right: 0.5rem;
+  }
+  
+  .submitButtoners {
+    background-color: #007bff;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .submitButtoners:hover {
+    background-color: #0056b3;
+  }
+
+  .contactInfo{
+    cursor: pointer;
+  }
+
+  .logoGroup{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logoGroup img{
+    width: 40px;
+    border-radius: 10%;
+  }
+  .aboutmeh4{
+    font-size: 35px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif !important;
+    margin-top: 70px;
+    margin-bottom: 20px;
+  }
+  
+  .toggloedropdown{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    z-index: 101;
+    margin-right: 40px;
+  }
+
+  @media (max-width: 800px) {
+    .toggloedropdown{
+      margin-right: 15px;
+    }
+  }
+  .typewriteThings{
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+
+
+
+  @media (max-width: 868px) {
+    .tivcontainer {
+      flex-direction: column;
+    }
+  
+    .formSectionings,
+    .imageSection {
+      flex: 1 1 100%;
+    }
+    .logoGroup h1{
+      font-size: 15px;
+    }
+    .typewriteThings{
+      font-size: 14px;
+      font-weight: 700;
+      color: #ffffff;
+      /* max-width: 30%; */
+      margin: 0;
+    }
+  }
+  

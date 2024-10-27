@@ -1,0 +1,310 @@
+button{
+    cursor: pointer !important;
+}
+.containerers {
+    padding: 20px;
+    /* background-color: #d1d4d8; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-position: center;
+    background-image: url('../../Assets/herobg.png');
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  
+  .header {
+    padding:5px 20px;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    position: fixed !important;
+    top: 0%;
+    width: 100% !important;
+    z-index: 100;
+    transition: all ease .3s;
+  }
+  .logoGroup{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logoGroup img{
+    width: 40px;
+    border-radius: 10%;
+  }
+  .header h1 {
+    font-size: 28px;
+    color: #999090;
+  }
+  .header input{
+    padding: 10px 8px;
+    border-radius: 4px;
+    width: 40%;
+    border: none;
+    outline: none;
+  }
+  .header .container {
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    /* border: 1px solid red; */
+    width: 10%;
+  }
+  .header .container div.toggle {
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    transition: all ease .3s;
+  }
+  .header .container div.toggle:hover, .header .container div.toggle:active {
+    background-color: #ffffff00;
+    color: white;
+  }
+  
+  .downloadButton {
+    background-color: #e3e4e6;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 4px 10px !important;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+    font-weight: 550;
+  }
+  
+  .downloadButton:hover {
+    background-color: #b0b0b1;
+  }
+
+  .profileContainer {
+    width: 95%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: #e1e1e1e6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.profileContainer form {
+  width: 65%;
+}
+.profileContainer form label {
+  display: block;
+  margin-bottom: 1%;
+  font-size: 20px;
+  font-weight: 600;
+}
+.profileContainer form input {
+  padding: 1% 2%;
+  margin-bottom: 1%;
+  width: 90%;
+  font-size: 15px;
+  border: 0px;
+  background-color: #fff;
+}
+.profileContainer form div {
+  margin: 1% 0%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  font-style: italic;
+  color: blue;
+}
+/* .profileContainer form div a {
+  cursor: pointer;
+} */
+.profileContainer form div a:nth-child(2) {
+  color: red;
+}
+
+.imageContainer {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: relative;
+  }
+  .imageContainer img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: white;
+  }
+
+.profileImgCast {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: #47474756;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.profileImgCast label {
+    border-radius: 5px;
+    background-color: #474747e3;
+    color: white;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.profileImgCast input {
+    display: none;
+}
+
+.profileWords {
+    width: 65%;
+}
+.profileWords h1 {
+    font-size: 50px;
+}
+.profileWords p {
+    font-size: 20px;
+}
+
+.profileEditIcon {
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  width: 80px;
+  height: 50px;
+  color: white;
+  background-color: #474747;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.profileSaveIcon {
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  width: 80px;
+  height: 50px;
+  color: white;
+  background-color: #28a745;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+  
+  .tableContainer {
+    width: 100%;
+    max-width: 1200px;
+    overflow-x: auto;
+  }
+  
+  .ridesTables {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #e1e1e1e6;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    font-weight: 550;
+    /* color: rgb(167, 167, 167) !important; */
+  }
+  
+  .ridesTables th, .ridesTables td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+
+  }
+  
+  .ridesTables th {
+    background-color: #f0f2f5;
+    color: #474747;
+  }
+  
+  .ridesTables td {
+    color: #6b6a6a;
+    text-wrap: nowrap;
+  }
+  
+  .bookNow {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .bookNow:hover {
+    background-color: #218838;
+  }
+  .bottomHeaders{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: 4.2%;
+    font-weight: 650;
+    margin-bottom: 20px;
+    color: rgb(189, 179, 179);
+  }
+  .heading {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-right: auto;
+    margin-left: 4.2%;
+    font-weight: 650;
+    margin-bottom: 20px;
+    color: rgb(189, 179, 179);
+  }
+  .heading p {
+    font-size: 20px;
+  }
+
+  @media (max-width: 800px) {
+    .bottomHeaders{
+      flex-wrap: wrap;
+      width: 90%;
+      margin-right: 0;
+      justify-content: flex-end;
+      gap: 10px;
+    }
+  }
+  .bottomHeaders p{
+    font-size: 18px;
+    width: fit-content;
+  }
+  .bottomHeaders button{
+    color: white;
+    background-color: #28a745;
+    padding: 8px 15px;
+    border: 0;
+    border-radius: 3px;
+    width: fit-content;
+  }
+  .bottomHeaders button:hover {
+    background-color: #218838;
+  }
+  

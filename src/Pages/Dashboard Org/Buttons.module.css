@@ -1,0 +1,35 @@
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 150px;
+  }
+  
+  .buttondd {
+    /* background-color: #000; */
+    /* color: #fff; */
+    font-weight: 600;
+    padding: 15px;
+    border: none;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buttondd:hover {
+    background-color: #555 !important;
+  }
+  
+  @media (max-width: 768px) {
+    .buttonContainer {
+      flex-direction: column;
+    }
+  
+    .buttondd {
+      margin: auto;
+      width: 50%;
+    }
+  }
+  

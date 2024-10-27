@@ -1,0 +1,428 @@
+/* LoginPage.css */
+/* body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+  }
+  
+  .login-container {
+    text-align: center;
+    padding: 40px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+  }
+  
+  .avatar-placeholder img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #45a049;
+  } */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Londrina+Sketch&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.signup-container2 {
+  /* font-family: 'Lobster' !important; */
+  /* font-family: "Playfair Display", serif !important; */
+  font-family: "Playfair Display SC", serif !important;
+  /* font-family: "Josefin Sans", sans-serif !important; */
+  /* font-family: "Londrina Sketch", sans-serif; */
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 5%;
+    /* background-color: #000000; */
+    /* background-image: url('./blackBg.jpg'); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1 !important;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+
+  
+  .signup-form {
+    flex: 1;
+    max-width: 550px;
+    padding-left: 30px;
+    align-items: center;
+    transform: none;
+  }
+   .imgaeflex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+   }
+   .imgaeflex img{
+   border-radius: 8px 20px;
+   }
+   .imgaeflex p{
+    font-size: 18px !important;
+    font-weight: 600;
+    margin: 0;
+    line-height: 0.8;
+    color: rgb(255, 255, 255) !important;
+     font-family: "Playfair Display DC",
+   }
+   .atypeshii{
+    font-family: 'Lobster';
+    color: #979494 ;
+   }
+   .atypeshii p{
+    color: #ffffff !important;
+   }
+   .burlixtype{
+    font-family: 'Playfair Display';
+   }
+
+  .headertop{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .headertop .logo {
+    width: 50px;
+  }
+  
+  .headertop h2 {
+    font-size: 53px;
+    font-weight: 9000;
+    margin-bottom: 10px;
+    margin: 0;
+    margin-top: 40px;
+    /* font-family: 'Lobster' !important; */
+  }
+
+  .headertop p {
+    font-size: 16px;
+    margin: 0;
+    color: rgb(202, 202, 202);
+  }
+  
+  .headertop a {
+    color: #363030;
+    text-decoration: none;
+  }
+  
+  .inputGroupDiv {
+    margin-bottom: 30px;
+    position: relative;
+  }
+  .inputGroupDiv .imgRep{
+    font-size: 27px;
+    margin: 0;
+    margin-left: -52px;
+    margin-top: 17px;
+    position: absolute;
+    z-index: 1;
+    /* color: rgb(0, 0, 0); */
+  }
+  .inputGroupDiv .imgRep22{
+    font-size: 27px;
+    margin: 0 !important;
+    /* margin-left: 0px; */
+    /* margin-top: 17px; */
+    position: absolute;
+    z-index: 1;
+    top: 13px;
+    left: 76.3%;
+    cursor: pointer;
+    /* color: rgb(0, 0, 0); */
+    color: #000000;
+  }
+  .inputGroupDiv img{
+    margin-left: -50px;
+    margin-top: 17px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .inputGroupDiv label {
+    display: block;
+    font-size: 18px;
+    /* margin-bottom: 5px; */
+    position: absolute;
+    z-index: 1;
+    background: none;
+    top: -13px;
+    left: 30px;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: 0.8s ease all;
+    font-family: 'Lobster';
+    color: rgb(255, 255, 255) !important;
+    font-weight: 550;
+  }
+  
+  .inputGroupDiv input {
+    width: 80%;
+    padding: 20px;
+    border: 0;
+    border-radius: 25px;
+    font-size: 14px;
+    position: relative;
+    outline: none;
+    opacity: 0.6 !important;
+    color: #000000 !important;
+    /* background-color: rgba(0, 0, 0, 0.3) !important; */
+    /* background: rgba(0, 0, 0, 0.3) !important; */
+  }
+  .inputGroupDiv input:focus {
+   top: 10px;
+   border: 0.1px solid #ccc;
+   z-index: 20;
+  }
+  .signup-form form{
+    margin-top: 60px;
+  }
+
+  .welcomeBack{
+    font-size: 60px;
+  }
+
+  .signup-btn {
+    width: 87%;
+    padding: 20px;
+    background-color: #4A00E0;
+    color: #fff;
+    border: none;
+    /* border-radius: 25px; */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  .signup-btn:hover {
+    background-color: #460bbb;
+    
+  }
+  
+  .signup-illustration {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* background-color: #4267b2; */
+    border-radius: 20px;
+    position: relative;
+    font-family: "Playfair Display SC", serif;
+    /* padding: 40px; */
+  }
+  
+  .signup-illustration p {
+    font-size: 42px;
+    color: #fff;
+    margin: 6px;
+    /* margin-bottom: 20px; */
+    /* position: absolute !important; */
+    font-family: "Londrina Sketch", sans-serif;
+  }
+
+  .signup-illustration .replaceSpan{
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  .fonstSiveGroup{
+    color: #4A00E0 !important;
+    font-size: 68px !important;
+  }
+  @media (max-width : 1250px) {
+    .fonstSiveGroup{
+      color: #4A00E0 !important;
+      font-size: 62px !important;
+    }
+    .signup-illustration p {
+      font-size: 38px;
+      color: #fff;
+      margin: 6px;
+      /* margin-bottom: 20px; */
+      /* position: absolute !important; */
+      font-family: "Londrina Sketch", sans-serif;
+    }
+  }
+  @media (max-width : 1150px) {
+    .fonstSiveGroup{
+      color: #4A00E0 !important;
+      font-size: 53px !important;
+    }
+    .signup-illustration p {
+      font-size: 29px;
+      color: #fff;
+      margin: 6px;
+      /* margin-bottom: 20px; */
+      /* position: absolute !important; */
+      font-family: "Londrina Sketch", sans-serif;
+    }
+  }
+  @media (max-width : 1050px) {
+    .fonstSiveGroup{
+      color: #4A00E0 !important;
+      font-size: 42px !important;
+    }
+    .signup-illustration p {
+      font-size: 23px;
+      color: #fff;
+      margin: 6px;
+      /* margin-bottom: 20px; */
+      /* position: absolute !important; */
+      font-family: "Londrina Sketch", sans-serif;
+    }
+  }
+  .disvting{
+    position: absolute;
+    text-align: left;
+    left: 15%;
+    top: 10%;
+  }
+  
+  .signup-illustration img {
+    width: 90%;
+    height: 85vh;
+    border-radius: 20px;
+    position: relative;
+    /* box-shadow: 0 0 5px 2px #3a3939; */
+}
+
+
+@media (max-width: 900px) {
+
+  .signup-container2{
+    justify-content: center;
+  }
+  .signup-illustration {
+      display: none;
+  }
+  .signup-illustration img{
+      display: none;
+  }
+  .headertop h2 {
+    font-size: 35px;
+      font-weight: 9000;
+      margin-bottom: 10px;
+      margin: 0;
+      margin-top: 40px;
+      line-height: 1;
+  }
+  .signup-container {
+      padding: 30px;  
+  }
+  .signup-form {
+      flex: 1;
+      width: 100%;
+      margin: auto;
+      padding-left: 10px;
+    margin-top: 80px !important;
+    }
+  .signup-form form{
+     margin-top: 60px;
+    }
+    .signup-btn {
+      width: 92.5%;
+      padding: 16px;
+      background-color: #4A00E0;
+      color: #fff;
+      border: none;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .inputGroupDiv {
+      margin-bottom: 30px;
+      position: relative;
+    }
+}
+
+.login-page {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#starfield {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../Assets/darkcloud.jpg');
+  /* background-color: #000000;  */
+}
+
+.car-3d-section {
+  width: 53%;
+  height: 80vh; /* Ensures consistent height for the 3D car */
+  background: transparent !important;
+  margin-top: 20vh;
+  /* z-index: -100; */
+}
+
+@media (max-width: 900px) {
+  .car-3d-section{
+    display: none;
+  }
+}
+
+  

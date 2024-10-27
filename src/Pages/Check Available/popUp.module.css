@@ -1,0 +1,142 @@
+
+.window {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000000000000;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    padding-bottom: 5%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #fff;
+    /* height: 90%; */
+    border-radius: 5px;
+    /* position: absolute; */
+}
+
+.imageContainer {
+    border-radius: 5px;
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+.imageContainer img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    background-color: #e9e7e7;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+.vehicleImg {
+    width: 100%;
+    height: 100%;
+    background-color: #e9e7e7;
+}
+
+.dash {
+    /* height: 150px; */
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: start; */
+    position: absolute;
+    top: 100%;
+    left: 250px;
+}
+.dash h1 {
+    margin: 0%;
+}
+.dash p {
+    margin: 0%;
+}
+.dash .ratings {
+    color: gold;
+}
+
+.details {
+    margin: auto;
+    margin-top: 150px;
+    width: 90%;
+    font-weight: 600;
+}
+.details span {
+    font-style: italic;
+}
+.moreImgs {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+.moreImgs img {
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #e9e7e7;
+    margin-right: 10px;
+}
+
+.bottomFixed {
+    position: fixed;
+    top: 87%;
+    width: 80%;
+    height: 50px;
+    padding: .5% 0%;
+    background-color: #fff;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    margin: 0% 3%;
+    padding: 0% 3%;
+    font-size: 15px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.bookNow {
+    background-color: #28a745;
+}
+
+.leave {
+    position: fixed;
+    top: 10%;
+    left: 83%;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    border-radius: 50%;
+    /* background-color: #000; */
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
